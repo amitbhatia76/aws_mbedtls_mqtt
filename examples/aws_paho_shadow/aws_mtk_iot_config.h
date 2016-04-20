@@ -23,6 +23,14 @@
 
 // Get from console
 // =================================================
+#define AWS_IOT_MQTT_HOST              "A3R9YEMRNQV6JJ.iot.us-east-1.amazonaws.com"
+#define AWS_IOT_MQTT_PORT              8883
+#define AWS_IOT_MQTT_CLIENT_ID         "LinkIt_AWS_Test"
+#define AWS_IOT_MY_THING_NAME          "LinkIt_AWS_Test"
+#define AWS_IOT_ROOT_CA_FILENAME      "root-CA.crt"
+#define AWS_IOT_CERTIFICATE_FILENAME   "a8226f764f-certificate.pem.crt"
+#define AWS_IOT_PRIVATE_KEY_FILENAME   "a8226f764f-private.pem.key"
+/* =================================================
 #define AWS_IOT_MQTT_HOST              "A21DXA5BCPF81N.iot.us-west-2.amazonaws.com" ///< Customer specific MQTT HOST. The same will be used for Thing Shadow
 #define AWS_IOT_MQTT_PORT              8883 ///< default port for MQTT/S
 #define AWS_IOT_MQTT_CLIENT_ID         "NTHU_LinkitOne" ///< MQTT client ID should be unique for every device
@@ -30,10 +38,10 @@
 #define AWS_IOT_ROOT_CA_FILENAME       "root.pem" ///< Root CA file name
 #define AWS_IOT_CERTIFICATE_FILENAME   "8cbd725746-certificate.pem.crt" ///< device signed certificate file name
 #define AWS_IOT_PRIVATE_KEY_FILENAME   "8cbd725746-private.pem.key" ///< Device private key filename
-// =================================================
-
+=================================================*/
+//=================================================
 //set to use Wifi or GPRS
-#define WIFI_USED true  //true (Wifi) or false (GPRS)
+#define WIFI_USED false  //true (Wifi) or false (GPRS)
 
 /* change Wifi settings here */
 #define WIFI_AP "Home-WIFI"
